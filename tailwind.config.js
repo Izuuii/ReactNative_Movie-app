@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  presets: [require("nativewind/preset")], // ✅ This line is required
   content: [
     "./app/**/*.{js,ts,jsx,tsx}", // make sure it points to your routes
     "./components/**/*.{js,ts,jsx,tsx}",
